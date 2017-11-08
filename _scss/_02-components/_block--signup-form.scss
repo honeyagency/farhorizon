@@ -1,0 +1,5 @@
+.block--signup-form {
+    @include media($max-sm) {
+        margin-bottom: 1em;
+    }
+}

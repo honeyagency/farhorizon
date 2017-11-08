@@ -1,0 +1,23 @@
+.color--green-light {
+    color: map-get($green, light);
+}
+
+.color--green-mid {
+    color: map-get($green, mid);
+}
+
+.color--green-dark {
+    color: map-get($green, dark);
+}
+
+.color--white {
+    color: $white;
+}
+
+.color--gray {
+    color: $gray;
+}
+
+.color--lightgray {
+    color: $lightgray;
+}

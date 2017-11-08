@@ -1,0 +1,35 @@
+.icon-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: calc(100vw - 2em);
+
+    @include media($screen-xs) {
+        max-width: 300px;
+    }
+
+
+    @include media($screen-sm) {
+        max-width: 400px;
+    }
+
+
+    @include media($screen-md) {
+        max-width: 450px;
+    }
+
+
+    @include media($screen-lg) {
+        max-width: 475px;
+    }
+
+
+    svg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.icon-angle-right {
+    background-position: 95% center;
+    background-size: 1em;
+}

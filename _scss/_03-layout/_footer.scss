@@ -1,0 +1,13 @@
+footer {
+	form{
+
+		input{
+			width: 100%;
+		}
+	}
+    address {
+        @include media($screen-sm) {
+            border-left: 1px solid;
+        }
+    }
+}

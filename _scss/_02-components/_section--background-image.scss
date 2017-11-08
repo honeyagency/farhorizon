@@ -1,0 +1,13 @@
+.section--background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    @include media($screen-xs){
+    	min-height: 350px;
+    }
+    @include media($screen-sm){
+
+    }
+
+}

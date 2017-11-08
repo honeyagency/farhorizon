@@ -1,0 +1,5 @@
+.block--form-title {
+    @include media($max-md) {
+        margin-bottom: .5em;
+    }
+}
