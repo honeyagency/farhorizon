@@ -17,7 +17,7 @@ title: Far Horizon Crop Insurance
 description: >- # this means to ignore newlines until "baseurl:"
   Far Horizon Crop Insurance provides California growers the protection they need—to ensure the fruits of their labor and sustain California agriculture
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "farhorizoninsurance.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
