@@ -1,0 +1,48 @@
+.icon-shield-animate {
+    svg {
+        width: 100%;
+        height: 100%;
+
+        path {
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            animation-timing-function: $base-cubic;
+            // -webkit-transform: translate3d(0, 0, 0);
+            animation-name: shield;
+        }
+
+        #drk-01 {
+            transform: translateY(-15px);
+
+            // animation-name: shielddrk1;
+       
+        }
+
+        #drk-02 {
+            transform: translateY(10px) translateX(-20px);
+
+            // animation-name: shielddrk2;
+       
+        }
+
+        #drk-03, #lght-02 {
+            transform: translateY(30px);
+
+            // animation-name: shielddrk3;
+       
+        }
+
+        #lght-01 {
+            transform: translateY(-30px);
+
+            // animation-name: shieldlght1;
+       
+        }
+    }
+}
+
+@keyframes shield {
+    100% {
+        transform: translateY(0) translateX(0);
+    }
+}
